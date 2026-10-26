@@ -4,7 +4,7 @@ import { ExternalLink } from './ExternalLink';
 import { MonoText } from './StyledText';
 import { Text, View } from './Themed';
 
-import Colors from '@/src/logics/constants/Colors';
+import Colors from '@/logics/constants/Colors';
 
 export default function EditScreenInfo({ path }: { path: string }) {
   return (
