@@ -1,10 +1,10 @@
-import { SymbolView } from 'expo-symbols';
 import { Link, Tabs } from 'expo-router';
-import { Platform, Pressable } from 'react-native';
+import { SymbolView } from 'expo-symbols';
+import { Pressable } from 'react-native';
 
-import Colors from '@/constants/Colors';
-import { useColorScheme } from '@/components/useColorScheme';
-import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+import Colors from '@/src/logics/constants/Colors';
+import { useClientOnlyValue } from '@/src/logics/components/useClientOnlyValue';
+import { useColorScheme } from '@/src/logics/components/useColorScheme';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
